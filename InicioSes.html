@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/img/Icono_Pestaña.png">
+        <link rel="stylesheet" href="./estilo.css">
+        <title>Iniciar Sesión</title>
+     </head>
+     <body class="numero2">
+        <header>
+            <ul class="nav">
+                <a href="index.html"><img src="/img/Regresar.png" class=" b0"></a>
+            </ul>
+       </header>
+       <main class="Tabla_ing">
+              <section id="ingresar">
+            <div id="content_ingresar">
+                <img src="/img/Iniciar_Sesión.png" class="Inicio">
+                <input type="email" name="" id="email_login" placeholder="Ingresa tu Correo">
+                <input type="password" name="" id="pass_login" placeholder="Ingresa tu contraseña"><br>
+                <a onclick="Inicio_Ses()" class="bl"><button id="login">Login</button></a>
+            </div>
+       </section>
+       <section id="google_s">
+        <div id="botones">
+             <img src="/img/Google_Botón.png" id="google"onclick="Google()" class="boton">
+             <img src="/img/Facebook_Botón.png" id="facebook" onclick="Facebook()" class="boton">
+             <img src="/img/Yahoo_Botón.png" id="yahoo" onclick="Yahoo()" class="boton">
+        <div id="botones">
+             <img src="/img/Github_Botón.png" id="github" onclick="Github()" class="boton">
+             <img src="/img/Twitter_Botón.png" id="twitter" onclick="Twitter()" class="boton">
+        </div>
+        </div>
+        </section>
+       </main>
+       <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+
+<script src="javascript.js"></script>
+     </body>
+</html>

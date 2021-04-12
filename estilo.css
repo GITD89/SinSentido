@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.numero1
+{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-image: url("/img/Fondo_Hacker\ 0.jpg");
+}
+.numero2
+{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-image: url("/img/Fondo_Hacker\ 1.jpg");
+}
+.numero3
+{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    background-image: url("/img/Fondo_Hacker.jpg");
+}
+.nav
+{
+    text-align: right;
+    color: white;
+    background-color: rgb(1, 26, 1);
+    font-family: 'Times New Roman', Times, serif;
+    height: 80px;
+}
+header{
+    height: 10vh;
+    background-color: black;
+}
+.Tabla_ing {
+    align-items: center;
+    height: 350px;
+    width: 420px;
+    background-color: rgb(209, 10, 10);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}   
+.Tabla_reg {
+    align-items: center;
+    height: 160px;
+    width: 450px;
+    background-color: rgb(209, 10, 10);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.Regi {
+    width: 300px;
+    height: 100px;
+}
+.content_register
+{
+    text-align: center;
+    background-color: chartreuse;
+    color: rgb(0, 0, 0);
+    height: 300px;
+    margin: 300px;
+}
+.button
+{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.footer{
+    height: 10vh;
+    background-color: rgb(255, 0, 0);
+}
+.boton,.login,.registro
+{
+
+    background-color: rgba(255, 81, 0, 0.349);
+    color: black;
+    height: 50px;
+    width: 80px;
+    margin: 6px;
+    border-radius: 800%; 
+    border: rgba(0, 0, 0, 0.442) solid 5px;
+    
+}
+#botones {
+    text-align: center;
+
+}
+.bl
+{
+    background-color: rgba(255, 81, 0, 0.349);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 60px;
+    margin: auto;
+}
+.b2
+{
+    color: rgb(179, 179, 179);
+    font-size: 30px;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+}
+.b2:hover {
+    transform: scale(1.1);
+}
+.b0
+{
+    color: rgb(179, 179, 179);
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+.b0:hover {
+    transform: scale(1.1);
+}
+#google {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    align-content: center;
+    border-color: white;
+}
+#google:hover {
+    transform: scale(1.1);
+}
+#facebook {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    align-content: center;
+    border-color: white;
+}
+#facebook:hover {
+    transform: scale(1.1);
+}
+#yahoo {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    align-content: center;
+    border-color: white;
+}
+#yahoo:hover {
+    transform: scale(1.1);
+}
+#twitter {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    align-content: center;
+    border-color: white;
+}
+#twitter:hover {
+    transform: scale(1.1);
+}
+#github {
+    color: red;
+    background-color: white;
+    border-radius: 45px;
+    align-content: center;
+    border-color: white;
+}
+#github:hover {
+    transform: scale(1.1);
+}

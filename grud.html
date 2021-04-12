@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./indes.css">
+        <title>grud</title>
+     </head>
+     <body> 
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="ta">
+                                <div class="from-grup">
+                                    <input 
+                                    type="text" 
+                                    id="titulo" 
+                                    class="da" 
+                                    placeholder="Task Title"
+                                    autofocus
+                                    />
+                                    
+                                </div><br>
+                                <div class="grup">
+                                    <textarea 
+                                    id="descripcion" 
+                                    rows="3" 
+                                    class="des" 
+                                    placeholder="Task Description">
+
+                                    </textarea>
+                        </div>
+                        <button id="guardar" class="boton">grardar</button>
+                    </div>
+                </div>
+                <div class="col-md-4" id="contenedor"></div>
+            </div>
+        </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+
+
+<script src="index.js"></script>
+     </body>
+</html>
